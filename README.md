@@ -1,4 +1,4 @@
-# Lab: wardial
+# Lab: Wardial
 
 [![doctests](https://github.com/chisatokamakura/lab-wardial/actions/workflows/doctests.yaml/badge.svg)](https://github.com/chisatokamakura/lab-wardial/actions/workflows/doctests.yaml)
 
