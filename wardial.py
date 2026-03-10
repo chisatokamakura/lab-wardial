@@ -183,18 +183,19 @@ if __name__ == "__main__":
 # If you go on to take the CS46 class (data structures) next semester,
 # you'll learn how to write this parallel code.
 ########################################
-dprk_ips_with_servers = []
-for ip in dprk_ips: 
-    print("scanning:", ip)
-    if is_server_at_hostname(ip):
-        dprk_ips_with_servers.append(ip)
+    dprk_ips_with_servers = []
+    for ip in dprk_ips: 
+        print("scanning:", ip)
+        if is_server_at_hostname(ip):
+            print(ip)
+            dprk_ips_with_servers.append(ip)
 
 ########################################
 # Once you've completed the tasks above,
 # the following code should output the list of IP addresses.
 # You don't have to modify anything here.
 ########################################
-print('dprk_ips_with_servers=', dprk_ips_with_servers)
+    print('dprk_ips_with_servers=', dprk_ips_with_servers)
 
 ########################################
 # FIXME 3:
