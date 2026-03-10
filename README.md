@@ -6,7 +6,7 @@
 
 This project searches all DPRK IP addresses for an active web server.
 
-## Code Used: 
+## Code Output: 
 
 ```
 $ python3 wardial.py
